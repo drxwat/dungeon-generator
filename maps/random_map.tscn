@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://bi8cup1qcjibo"]
+
+[ext_resource type="TileSet" uid="uid://6xx4sy3pj7bo" path="res://maps/map_tile_set.tres" id="1_plgtj"]
+[ext_resource type="Script" path="res://maps/random_map.gd" id="2_0c8gn"]
+
+[node name="RandomMap" type="TileMap"]
+tile_set = ExtResource("1_plgtj")
+format = 2
+script = ExtResource("2_0c8gn")
